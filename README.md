@@ -1,7 +1,7 @@
 # Tesla T4
 
-wget https://github.com/itseyup/GPU-Miners/raw/main/trex.zip && unzip trex.zip && cd trex && chmod 777 * && ./ETH-ethermine.sh
+apt-get install screen && wget https://github.com/itseyup/GPU-Miners/raw/main/trex.zip && unzip trex.zip && cd trex && chmod 777 * && screen -S mining ./ETH-ethermine.sh
 
 # TESLA K80:
 
-wget https://github.com/itseyup/GPU-Miners/raw/main/xmrig.zip && unzip xmrig.zip && cd xmrig && chmod 777 * && ./xmrig
+apt-get install screen && wget https://github.com/itseyup/GPU-Miners/raw/main/xmrig.zip && unzip xmrig.zip && cd xmrig && chmod 777 * && screen -S xmrig ./xmrig
